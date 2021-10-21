@@ -1,11 +1,11 @@
-{
+amiboss = {
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
       "biome": "minecraft:jungle_edge",
-      "lakes": false,
-      "features": false,
+      "lakes": False,
+      "features": False,
       "layers": [
         {
           "block": "minecraft:stone",
