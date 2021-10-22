@@ -1,0 +1,4 @@
+## invincible <entity>
+macro ironminion{
+    summon zombie $$0 $$1 $$2 {CustomNameVisible:1b,Tags:["ironminion"],CustomName:'{"text":"IronMinion"}',HandItems:[{id:"minecraft:wooden_sword",Count:1b,tag:{display:{Name:'{"text":"Sword of David","color":"dark_green","italic":true}'},Unbreakable:1b,CustomModelData:1,Enchantments:[{id:"minecraft:sharpness",lvl:1s},{id:"minecraft:looting",lvl:1s}]}},{}],HandDropChances:[0.010F,0.085F],ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{id:"minecraft:golden_leggings",Count:1b},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:4028415}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"IronGriefer"}}],ArmorDropChances:[0.085F,0.085F,0.000F,0.085F]}
+}
