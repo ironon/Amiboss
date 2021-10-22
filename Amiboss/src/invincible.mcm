@@ -1,0 +1,6 @@
+## invincible <entity>
+macro makeInvincible{
+    effect give $$0 resistance 1000000 255 true
+    attribute @s minecraft:generic.max_health base set 99999999999999999999999999999999999
+    tag @s add invincible
+}
